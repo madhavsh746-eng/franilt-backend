@@ -10,6 +10,7 @@ const allowedOrigins = [
   process.env.CLIENT_URL,          // e.g. http://localhost:5173
   'http://localhost:3000',
   'http://localhost:5173',
+  'https://franilt-frontend.vercel.app',
 ].filter(Boolean);
 
 app.use(
